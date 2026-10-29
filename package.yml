@@ -1,0 +1,15 @@
+package: community.lazycat.app.drawio
+version: 32.6.1
+name: draw.io
+description: A browser-based diagram editor for flowcharts, architecture diagrams and mind maps.
+min_os_version: "1.5.0"
+homepage: https://github.com/jgraph/drawio
+author: JGraph
+license: Apache-2.0
+locales:
+  zh:
+    name: draw.io
+    description: 浏览器中的流程图、架构图和思维导图编辑器。
+  en:
+    name: draw.io
+    description: A browser-based diagram editor for flowcharts, architecture diagrams and mind maps.

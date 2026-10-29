@@ -1,0 +1,17 @@
+application:
+  subdomain: drawio
+  multi_instance: false
+  upstreams:
+    - location: /
+      backend: http://drawio:8080/
+services:
+  drawio:
+    # upstream: docker.io/jgraph/drawio:32.6.1
+    image: docker.1ms.run/jgraph/drawio:32.6.1
+usage: |
+  draw.io 原版图表编辑器。保留懒猫入口登录保护，不配置独立应用账号。
+  建议选择“设备”保存图表，及时导出源文件和备份。
+  如不使用云盘，可在应用地址后加 /?offline=1；上游将关闭云存储支持，这不等于禁止所有网络请求。
+  本包不配置 Google Drive、OneDrive 或其他云盘 OAuth；不提供服务器端文档存储。
+  社区包不附加文件选择器拦截，不添加 smoke 作业或容器运行门禁。
+  尚未验证懒猫实机、图表编辑、导入、导出或浏览器交互。
