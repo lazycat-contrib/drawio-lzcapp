@@ -13,3 +13,7 @@
 The reusable workflow builds a versioned Release LPK. Both automatic store publishers are disabled. Submit only the verified Release URL/SHA256 to MiaoMiao community store after full source/alias duplicate checks. Do not publish to the official store.
 
 Build, configuration and digest verification are not runtime, device, editing or import/export interaction tests.
+
+## Community release
+
+Published to MiaoMiao as app 658, APPROVED, Draw category 34, version 32.6.1. Build 40872815896 succeeded with only the reusable LazyCat job. Logs confirm source/mirror verification completed. The 33280-byte LPK was independently downloaded and checked against SHA256 `5d2713fd1dce35505015c535b5a74458e38b37239a6a64ea7a77746bc84497c4`. No runtime or device interaction testing was performed.
